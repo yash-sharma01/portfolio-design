@@ -6,13 +6,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
-a {
+a,
+p {
   text-decoration: none;
   font-weight: 600;
 }
 
 .btn-pri {
   background-color: #e8505b;
+  border: #e8505b solid 2px;
   font-size: 14px;
   color: white;
   padding: 12px 25px;
@@ -41,28 +43,83 @@ nav ul {
   color: #e8505b;
 }
 
+nav ul li a {
+  color: #e8505b;
+}
+
 .hero {
+  height: 55vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 120px 0 0 0;
 }
 
-.hero div h2 {
-  color: #e8505b;
+.hero .box {
+  padding: 0 0 15px 60px;
+  border-left: #e8505b solid 8px;
 }
 
-.hero div h1 {
+.hero .box h2 {
+  color: #e8505b;
+  letter-spacing: 3px;
+}
+
+.hero .box h1 {
   color: #263238;
+  letter-spacing: 3px;
   font-size: 48px;
   margin: 10px 0px 20px 0px;
 }
 
-.hero div div .btn-pri {
+.hero .box div .btn-pri {
   margin-right: 20px;
 }
 
 .hero .hero-img {
   width: 550px;
+  margin-right: 144px;
+}
+
+.about {
+  margin-top: 200px;
+}
+
+.about .section-heading .section-box {
+  width: 150px;
+  height: 60px;
+  background-color: #e8505b;
+}
+
+.about .section-heading h2 {
+  color: #263238;
+  position: absolute;
+  left: 70px;
+  margin-top: -45px;
+}
+
+.about .desc {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about .desc p {
+  width: 50vw;
+  line-height: 22px;
+}
+
+.about .desc img {
+  width: 250px;
+  border: 8px solid #e8505b;
+  border-radius: 100%;
+}
+
+.about .watermark {
+  font-size: 200px;
+  letter-spacing: 10px;
+  color: rgba(0, 0, 0, 0.05);
+  font-weight: 900;
+  margin-left: 80px;
 }
 /*# sourceMappingURL=main.css.map */
